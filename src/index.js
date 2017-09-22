@@ -22,7 +22,7 @@ const GAME_STATES = {
     START: '_STARTMODE', // Entry point, start the game.
     HELP: '_HELPMODE', // The user is asking for help.
 };
-const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL)
+const APP_ID = 'amzn1.ask.skill.ffbb40fe-fadc-4b7b-bd0d-f4c6059d937a'; 
 
 /**
  * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
@@ -59,13 +59,7 @@ const languageString = {
     'en-US': {
         'translation': {
             'QUESTIONS': questions['QUESTIONS_EN_US'],
-            'GAME_NAME': 'American Bears Trivia', // Be sure to change this for your skill.
-        },
-    },
-    'en-GB': {
-        'translation': {
-            'QUESTIONS': questions['QUESTIONS_EN_GB'],
-            'GAME_NAME': 'British Bears Trivia', // Be sure to change this for your skill.
+            'GAME_NAME': 'Bears Trivia',
         },
     },
 };
